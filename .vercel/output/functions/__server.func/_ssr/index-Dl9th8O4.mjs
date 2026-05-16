@@ -684,8 +684,8 @@ function Achievements() {
 }
 const LINKS = [
   { label: "hamidraza9182@gmail.com", href: "mailto:hamidraza9182@gmail.com" },
-  { label: "LinkedIn", href: "https://www.linkedin.com/" },
-  { label: "GitHub", href: "https://github.com/" }
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/muhammad-hamid-raza-/" },
+  { label: "GitHub", href: "https://github.com/Hami-d-Raza" }
 ];
 function Contact() {
   return /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { id: "contact", className: "relative bg-[#111111]", children: [
