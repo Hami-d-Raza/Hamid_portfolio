@@ -40,17 +40,21 @@ const PROJECTS: Project[] = [
   },
   {
     name: "Video Downloader",
+    domain: "video-downloader-jade.vercel.app",
     year: "2025",
     description:
       "Multi-platform video downloader supporting YouTube, Instagram, TikTok, Facebook with MP3 extraction.",
     tech: ["FastAPI", "yt-dlp", "Railway", "React"],
+    href: "https://video-downloader-jade.vercel.app",
   },
   {
-    name: "HR Attrition Analysis",
-    year: "2024",
+    name: "AceStream",
+    domain: "acestream.vercel.app",
+    year: "2026",
     description:
-      "ML classification pipeline on 14,999 records with Logistic Regression, Decision Tree, Random Forest.",
-    tech: ["Python", "Scikit-learn", "Streamlit"],
+      "Full-stack anime discovery and streaming platform with advanced search, episode streaming, and personal watchlist.",
+    tech: ["React", "TypeScript", "Vite", "Zustand", "HLS.js", "FastAPI"],
+    href: "https://acestream.vercel.app",
   },
 ];
 
