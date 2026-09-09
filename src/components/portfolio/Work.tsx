@@ -21,6 +21,14 @@ const PROJECTS: Project[] = [
     href: "https://mediscanai.me",
   },
   {
+    name: "Miqat",
+    year: "2026",
+    description:
+      "Full-featured Islamic Android app — prayer times, Quran audio playback, Qibla compass, and nearby-mosque finder powered by Google Maps.",
+    tech: ["Kotlin", "Jetpack Compose", "Android", "Google Maps SDK"],
+    href: "https://play.google.com/store/apps/details?id=com.hamidraza.miqat",
+  },
+  {
     name: "UAF Result Hub",
     domain: "uafresult.live",
     year: "2025",
@@ -30,13 +38,13 @@ const PROJECTS: Project[] = [
     href: "https://uafresult.live",
   },
   {
-    name: "Mikel Portfolio",
-    domain: "saezdevicuna.eus",
+    name: "AceStream",
+    domain: "acestream.vercel.app",
     year: "2026",
     description:
-      "Multilingual client portfolio with interactive world map, dynamic CMS, and email-based auth.",
-    tech: ["React", "Leaflet", "GSAP", "Netlify", "Custom CMS"],
-    href: "https://saezdevicuna.eus",
+      "Full-stack anime discovery and streaming platform with advanced search, episode streaming, and personal watchlist.",
+    tech: ["React", "TypeScript", "Vite", "Zustand", "HLS.js", "FastAPI"],
+    href: "https://acestream.vercel.app",
   },
   {
     name: "Video Downloader",
@@ -46,15 +54,6 @@ const PROJECTS: Project[] = [
       "Multi-platform video downloader supporting YouTube, Instagram, TikTok, Facebook with MP3 extraction.",
     tech: ["FastAPI", "yt-dlp", "Railway", "React"],
     href: "https://video-downloader-jade.vercel.app",
-  },
-  {
-    name: "AceStream",
-    domain: "acestream.vercel.app",
-    year: "2026",
-    description:
-      "Full-stack anime discovery and streaming platform with advanced search, episode streaming, and personal watchlist.",
-    tech: ["React", "TypeScript", "Vite", "Zustand", "HLS.js", "FastAPI"],
-    href: "https://acestream.vercel.app",
   },
 ];
 

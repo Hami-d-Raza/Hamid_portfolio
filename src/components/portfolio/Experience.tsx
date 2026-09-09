@@ -16,7 +16,63 @@ export function Experience() {
         </FadeUp>
 
         <FadeUp>
-          <div className="mt-14 border-l border-[#E0E0E0] pl-8">
+          <div className="mt-14 border-l border-[#E0E0E0] pl-8 space-y-14">
+            {/* Upwork – Mikel Saez de Vicuña */}
+            <div className="relative">
+              <span className="absolute -left-[37px] top-2 h-2.5 w-2.5 rounded-full bg-[#111]" />
+              <p className="text-[11px] uppercase tracking-[0.25em] text-[#6B6B6B]">
+                Apr – May 2026 · Remote, Basque Country, Spain
+              </p>
+              <h3 className="mt-2 font-serif text-2xl text-[#111] sm:text-3xl">
+                Freelance Full-Stack Developer
+              </h3>
+              <p className="mt-1 text-[15px] text-[#333]">
+                Upwork Client (Mikel Saez de Vicuña) ·{" "}
+                <a
+                  href="https://saezdevicuna.eus"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="underline underline-offset-2 hover:text-[#111] transition-colors"
+                >
+                  saezdevicuna.eus
+                </a>
+              </p>
+              <ul className="mt-5 space-y-3 text-[15px] leading-relaxed text-[#333]">
+                <li className="flex gap-3">
+                  <span className="mt-2 h-px w-4 shrink-0 bg-[#111]" />
+                  Built full-stack portfolio for a Spain-based Upwork client
+                  using React 19 + Vite; deployed to production on Netlify
+                </li>
+                <li className="flex gap-3">
+                  <span className="mt-2 h-px w-4 shrink-0 bg-[#111]" />
+                  Implemented multilingual support (English, Spanish, Basque)
+                  via Google Translate API, GSAP scroll animations, and custom
+                  cursor trail effects
+                </li>
+                <li className="flex gap-3">
+                  <span className="mt-2 h-px w-4 shrink-0 bg-[#111]" />
+                  Integrated interactive world map (Leaflet + GeoJSON) with
+                  dynamic pins fetched live from Google Sheets via PapaParse
+                </li>
+                <li className="flex gap-3">
+                  <span className="mt-2 h-px w-4 shrink-0 bg-[#111]" />
+                  Developed custom CMS with email-based authentication, enabling
+                  the client to update website content without touching code
+                </li>
+              </ul>
+              <div className="mt-4 flex flex-wrap gap-2">
+                {["React 19", "Vite", "Netlify", "GSAP", "Leaflet", "GeoJSON", "Google Translate API"].map((t) => (
+                  <span
+                    key={t}
+                    className="rounded-full border border-[#E0E0E0] px-3 py-0.5 text-[11px] tracking-wide text-[#6B6B6B]"
+                  >
+                    {t}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            {/* DevelopersHub Corporation */}
             <div className="relative">
               <span className="absolute -left-[37px] top-2 h-2.5 w-2.5 rounded-full bg-[#111]" />
               <p className="text-[11px] uppercase tracking-[0.25em] text-[#6B6B6B]">
